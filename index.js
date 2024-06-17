@@ -1,7 +1,7 @@
 require("dotenv").config();
 require("module-alias/register");
 require("events").EventEmitter.setMaxListeners(999999999)
-// require("colors")
+require("colors")
 const DevXor = require("@DevXor/DevXor");
 
 let client = new DevXor({
@@ -69,3 +69,4 @@ process.on("uncaughtExceptionMonitor", e => {
   if (!e) return
   console.log(e)
 });
+
