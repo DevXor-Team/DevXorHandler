@@ -1,0 +1,79 @@
+{
+  "name": "devxorhandler",
+  "version": "1.0.0",
+  "description": "devxorhandler is the best handler for bots written in discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevXor-Team/DevXorHandler.git"
+  },
+  "author": {
+    "name": "ABO FARGHALY",
+    "url": "https://github.com/omar00050"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/core": "^1.1.1",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/rest": "^1.6.0",
+    "@discordjs/voice": "^0.16.0",
+    "@types/node": "^20.12.11",
+    "ascii-table": "^0.0.9",
+    "axios": "^1.4.0",
+    "better-sqlite3": "^8.4.0",
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.37.36",
+    "discord.js": "^14.15.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "fs-nextra": "^0.4.7",
+    "glob": "^7.2.3",
+    "good.db": "^2.4.0",
+    "module-alias": "^2.2.3",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.45",
+    "ms": "^2.1.3",
+    "mysql2": "^3.3.3",
+    "node-fetch": "^2.6.1",
+    "parse-ms": "^2.1.0",
+    "pino": "^8.19.0",
+    "pino-pretty": "^11.0.0",
+    "typescript": "^5.4.5",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "eslint-plugin-jsdoc": "^48.2.2",
+    "nodemon": "^2.0.21"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src/",
+    "@base": "src/base/",
+    "@utils": "src/utils/",
+    "@events": "src/events/",
+    "@handlers": "src/handlers/",
+    "@database": "src/database/",
+    "@DevXor": "src/",
+    "@helpers": "src/utils/helpers/"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "handlers",
+    "handlers-bot",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/DevXor-Team/DevXorHandler/issues"
+  },
+  "homepage": "https://github.com/DevXor-Team/DevXorHandler#readme"
+}
