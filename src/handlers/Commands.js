@@ -34,7 +34,7 @@ module.exports = {
     // Owner commands
     if (
       cmd.category === "OWNER"
-      && !await client.config.owners.includes(message.author.id)
+      && !client.config.owners.includes(message.author.id)
     ) {
       return message.reply("This command is only accessible to bot owners");
     }
