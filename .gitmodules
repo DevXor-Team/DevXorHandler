@@ -1,4 +1,4 @@
-[submodule "discordjs-submodule"]
+[submodule "discord.js"]
 	path = discord.js
 	url = https://github.com/discordjs/discord.js
 [submodule "good.db"]
