@@ -1,0 +1,3 @@
+[submodule "discordjs-submodule"]
+	path = discordjs-submodule
+	url = https://github.com/discordjs/discord.js
