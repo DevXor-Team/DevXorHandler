@@ -4,4 +4,3 @@ logs
 .vscode
 package-lock.json
 *.jar
-dist
