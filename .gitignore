@@ -3,3 +3,5 @@ logs
 .env
 .vscode
 package-lock.json
+*.jar
+dist
