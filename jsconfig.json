@@ -1,5 +1,4 @@
 {
-  
   "compilerOptions": {
     "noUnusedLocals": false,
     "allowArbitraryExtensions": true,

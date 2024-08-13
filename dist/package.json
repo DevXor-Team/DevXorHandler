@@ -1,0 +1,13 @@
+{
+  "_moduleAliases": {
+  "@root": ".",
+  "@src": "src/",
+  "@base": "src/base/",
+  "@utils": "src/utils/",
+  "@events": "src/events/",
+  "@handlers": "src/handlers/",
+  "@database": "src/database/",
+  "@DevXor": "src/",
+  "@helpers": "src/utils/helpers/"
+  }
+}
