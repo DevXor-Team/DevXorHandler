@@ -10,13 +10,13 @@
 To install and use `DevXorHandler`, you need to install the following libraries:
 
 - [discord.js](https://www.npmjs.com/package/discord.js) (version 14.15.3)
-- [good.db](https://www.npmjs.com/package/good.db) (version 2.4.4)
+- [good.db](https://www.npmjs.com/package/good.db) (version 2.4.5)
 
 You can install these libraries using npm:
 
 ```sh
 npm install discord.js@14.15.3
-npm install good.db@2.4.4
+npm install good.db@2.4.5
 ```
 
 Then install the other required dependencies using `npm install` 
@@ -78,7 +78,7 @@ client.login(process.env.token)
 ```
 
 if you want to change the default database configuration in your project use 
-- [good.db](https://www.npmjs.com/package/good.db) (version 2.4.4)
+- [good.db](https://www.npmjs.com/package/good.db) (version 2.4.5)
 
 
 ```js
