@@ -6,7 +6,7 @@ const today = new Date();
 const webhookLogger = process.env.ERROR_LOGS ? new WebhookClient({ url: process.env.ERROR_LOGS }) : undefined;
 
 // Send warn webhook
-const sendWarnhook = process.env.ERROR_LOGS ? new WebhookClient({ url: process.env.WARN_LOGS }) : undefined;
+const sendWarnhook = process.env.WARN_LOGS ? new WebhookClient({ url: process.env.WARN_LOGS }) : undefined;
 
 // Create logger
 const pinoLogger = pino.default(
